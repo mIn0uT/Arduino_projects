@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Embedded Systems Activity 5</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f2f2f2;
+      margin: 0;
+      padding: 20px;
+    }
+    
+    h1 {
+      color: #ffffff;
+    }
+    
+    p {
+      color: #666666;
+    }
+    
+    header {
+      background-color: #333333;
+      padding: 20px;
+      color: #ffffff;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Embedded Systems Activity 5</h1>
+  </header>
+  
+  <h2>Welcome to dashboard</h2>
+  <p>Real time monitoring of sensors reading using ESP32 and thingspeak</p>
+  <div class="p-3 border">
+    <!-- F1 - Ultrasonic  -->
+    <iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/2177826/charts/1?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&title=Ultrasonic+Sensor&type=line"></iframe>
+    <!-- F2 Temperature -->
+    <iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/2177826/charts/2?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&title=Temperature+Sensor&type=line"></iframe>
+    <!-- F3 Color Red -->
+    <iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/2177826/charts/3?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&title=Color+Sensor+%28Red%29&type=line"></iframe>
+    <!-- F4 Color Blue -->
+    <!-- F5 Color Green -->
+</div>
+</body>
+</html>
